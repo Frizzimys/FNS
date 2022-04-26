@@ -34,15 +34,25 @@ namespace Project2 {
 				delete components;
 			}
 		}
-	private: System::Windows::Forms::Button^ button1;
+	private: System::Windows::Forms::Button^ Registration;
+	private: System::Windows::Forms::Button^ Clenear;
+	private: System::Windows::Forms::Button^ Fix;
+	private: System::Windows::Forms::Button^ Servers;
+	private: System::Windows::Forms::Button^ Plug;
 	protected:
-	private: System::Windows::Forms::Button^ button2;
-	private: System::Windows::Forms::Button^ button3;
-	private: System::Windows::Forms::Button^ button4;
-	private: System::Windows::Forms::Button^ button5;
+
+	protected:
+
+
+
+
 	private: System::Windows::Forms::Label^ label1;
-	private: System::Windows::Forms::Button^ button6;
-	private: System::Windows::Forms::Button^ button7;
+	private: System::Windows::Forms::Button^ VII_System;
+	private: System::Windows::Forms::Button^ Exit2;
+	private: System::Windows::Forms::Label^ label2;
+
+
+
 
 	private:
 		/// <summary>
@@ -57,72 +67,73 @@ namespace Project2 {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			this->button1 = (gcnew System::Windows::Forms::Button());
-			this->button2 = (gcnew System::Windows::Forms::Button());
-			this->button3 = (gcnew System::Windows::Forms::Button());
-			this->button4 = (gcnew System::Windows::Forms::Button());
-			this->button5 = (gcnew System::Windows::Forms::Button());
+			this->Registration = (gcnew System::Windows::Forms::Button());
+			this->Clenear = (gcnew System::Windows::Forms::Button());
+			this->Fix = (gcnew System::Windows::Forms::Button());
+			this->Servers = (gcnew System::Windows::Forms::Button());
+			this->Plug = (gcnew System::Windows::Forms::Button());
 			this->label1 = (gcnew System::Windows::Forms::Label());
-			this->button6 = (gcnew System::Windows::Forms::Button());
-			this->button7 = (gcnew System::Windows::Forms::Button());
+			this->VII_System = (gcnew System::Windows::Forms::Button());
+			this->Exit2 = (gcnew System::Windows::Forms::Button());
+			this->label2 = (gcnew System::Windows::Forms::Label());
 			this->SuspendLayout();
 			// 
-			// button1
+			// Registration
 			// 
-			this->button1->Font = (gcnew System::Drawing::Font(L"Times New Roman", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->Registration->Font = (gcnew System::Drawing::Font(L"Times New Roman", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->button1->Location = System::Drawing::Point(12, 53);
-			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(128, 44);
-			this->button1->TabIndex = 0;
-			this->button1->Text = L"Ввод в домен РС";
-			this->button1->UseVisualStyleBackColor = true;
-			this->button1->Click += gcnew System::EventHandler(this, &Glavnaya::button1_Click);
+			this->Registration->Location = System::Drawing::Point(12, 53);
+			this->Registration->Name = L"Registration";
+			this->Registration->Size = System::Drawing::Size(128, 44);
+			this->Registration->TabIndex = 0;
+			this->Registration->Text = L"Ввод в домен";
+			this->Registration->UseVisualStyleBackColor = true;
+			this->Registration->Click += gcnew System::EventHandler(this, &Glavnaya::Registration_Click);
 			// 
-			// button2
+			// Clenear
 			// 
-			this->button2->Font = (gcnew System::Drawing::Font(L"Times New Roman", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->Clenear->Font = (gcnew System::Drawing::Font(L"Times New Roman", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->button2->Location = System::Drawing::Point(165, 54);
-			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(128, 43);
-			this->button2->TabIndex = 1;
-			this->button2->Text = L"Очистка PC";
-			this->button2->UseVisualStyleBackColor = true;
-			this->button2->Click += gcnew System::EventHandler(this, &Glavnaya::button2_Click);
+			this->Clenear->Location = System::Drawing::Point(165, 54);
+			this->Clenear->Name = L"Clenear";
+			this->Clenear->Size = System::Drawing::Size(128, 43);
+			this->Clenear->TabIndex = 1;
+			this->Clenear->Text = L"Очистка PC";
+			this->Clenear->UseVisualStyleBackColor = true;
+			this->Clenear->Click += gcnew System::EventHandler(this, &Glavnaya::Cleaner_Click);
 			// 
-			// button3
+			// Fix
 			// 
-			this->button3->Font = (gcnew System::Drawing::Font(L"Times New Roman", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->Fix->Font = (gcnew System::Drawing::Font(L"Times New Roman", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->button3->Location = System::Drawing::Point(12, 103);
-			this->button3->Name = L"button3";
-			this->button3->Size = System::Drawing::Size(128, 44);
-			this->button3->TabIndex = 2;
-			this->button3->Text = L"Установка фиксов";
-			this->button3->UseVisualStyleBackColor = true;
+			this->Fix->Location = System::Drawing::Point(12, 103);
+			this->Fix->Name = L"Fix";
+			this->Fix->Size = System::Drawing::Size(128, 44);
+			this->Fix->TabIndex = 2;
+			this->Fix->Text = L"Установка фиксов";
+			this->Fix->UseVisualStyleBackColor = true;
 			// 
-			// button4
+			// Servers
 			// 
-			this->button4->Font = (gcnew System::Drawing::Font(L"Times New Roman", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->Servers->Font = (gcnew System::Drawing::Font(L"Times New Roman", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->button4->Location = System::Drawing::Point(165, 103);
-			this->button4->Name = L"button4";
-			this->button4->Size = System::Drawing::Size(128, 44);
-			this->button4->TabIndex = 3;
-			this->button4->Text = L"Проверка всех серверов";
-			this->button4->UseVisualStyleBackColor = true;
+			this->Servers->Location = System::Drawing::Point(165, 103);
+			this->Servers->Name = L"Servers";
+			this->Servers->Size = System::Drawing::Size(128, 44);
+			this->Servers->TabIndex = 3;
+			this->Servers->Text = L"Проверка всех серверов";
+			this->Servers->UseVisualStyleBackColor = true;
 			// 
-			// button5
+			// Plug
 			// 
-			this->button5->Font = (gcnew System::Drawing::Font(L"Times New Roman", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->Plug->Font = (gcnew System::Drawing::Font(L"Times New Roman", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->button5->Location = System::Drawing::Point(12, 153);
-			this->button5->Name = L"button5";
-			this->button5->Size = System::Drawing::Size(128, 44);
-			this->button5->TabIndex = 4;
-			this->button5->Text = L"Подключить сетевые диски";
-			this->button5->UseVisualStyleBackColor = true;
+			this->Plug->Location = System::Drawing::Point(12, 153);
+			this->Plug->Name = L"Plug";
+			this->Plug->Size = System::Drawing::Size(128, 44);
+			this->Plug->TabIndex = 4;
+			this->Plug->Text = L"Подключить сетевые диски";
+			this->Plug->UseVisualStyleBackColor = true;
 			// 
 			// label1
 			// 
@@ -135,66 +146,81 @@ namespace Project2 {
 			this->label1->TabIndex = 5;
 			this->label1->Text = L"Сервисное меню";
 			// 
-			// button6
+			// VII_System
 			// 
-			this->button6->Font = (gcnew System::Drawing::Font(L"Times New Roman", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->VII_System->Font = (gcnew System::Drawing::Font(L"Times New Roman", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->button6->Location = System::Drawing::Point(165, 153);
-			this->button6->Name = L"button6";
-			this->button6->Size = System::Drawing::Size(128, 44);
-			this->button6->TabIndex = 6;
-			this->button6->Text = L"О программе";
-			this->button6->UseVisualStyleBackColor = true;
-			this->button6->Click += gcnew System::EventHandler(this, &Glavnaya::button6_Click);
+			this->VII_System->Location = System::Drawing::Point(165, 153);
+			this->VII_System->Name = L"VII_System";
+			this->VII_System->Size = System::Drawing::Size(128, 44);
+			this->VII_System->TabIndex = 6;
+			this->VII_System->Text = L"О программе";
+			this->VII_System->UseVisualStyleBackColor = true;
+			this->VII_System->Click += gcnew System::EventHandler(this, &Glavnaya::VII_System_Click);
 			// 
-			// button7
+			// Exit2
 			// 
-			this->button7->Font = (gcnew System::Drawing::Font(L"Times New Roman", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->Exit2->Font = (gcnew System::Drawing::Font(L"Times New Roman", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->button7->Location = System::Drawing::Point(97, 203);
-			this->button7->Name = L"button7";
-			this->button7->Size = System::Drawing::Size(112, 40);
-			this->button7->TabIndex = 7;
-			this->button7->Text = L"Выход";
-			this->button7->UseVisualStyleBackColor = true;
-			this->button7->Click += gcnew System::EventHandler(this, &Glavnaya::button7_Click);
+			this->Exit2->Location = System::Drawing::Point(97, 203);
+			this->Exit2->Name = L"Exit2";
+			this->Exit2->Size = System::Drawing::Size(112, 40);
+			this->Exit2->TabIndex = 7;
+			this->Exit2->Text = L"Выход";
+			this->Exit2->UseVisualStyleBackColor = true;
+			this->Exit2->Click += gcnew System::EventHandler(this, &Glavnaya::Exit2_Click);
+			// 
+			// label2
+			// 
+			this->label2->AutoSize = true;
+			this->label2->Font = (gcnew System::Drawing::Font(L"Times New Roman", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->label2->Location = System::Drawing::Point(287, 3);
+			this->label2->Name = L"label2";
+			this->label2->Size = System::Drawing::Size(16, 15);
+			this->label2->TabIndex = 8;
+			this->label2->Text = L"X";
+			this->label2->Click += gcnew System::EventHandler(this, &Glavnaya::Label_Exit_Click);
 			// 
 			// Glavnaya
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(305, 255);
-			this->Controls->Add(this->button7);
-			this->Controls->Add(this->button6);
+			this->Controls->Add(this->label2);
+			this->Controls->Add(this->Exit2);
+			this->Controls->Add(this->VII_System);
 			this->Controls->Add(this->label1);
-			this->Controls->Add(this->button5);
-			this->Controls->Add(this->button4);
-			this->Controls->Add(this->button3);
-			this->Controls->Add(this->button2);
-			this->Controls->Add(this->button1);
+			this->Controls->Add(this->Plug);
+			this->Controls->Add(this->Servers);
+			this->Controls->Add(this->Fix);
+			this->Controls->Add(this->Clenear);
+			this->Controls->Add(this->Registration);
+			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
 			this->Name = L"Glavnaya";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"Меню неограниченных возможностей";
 			this->ResumeLayout(false);
 			this->PerformLayout();
-
 		}
 #pragma endregion
-	private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
+//Кнопки с функциями действия
+private: System::Void Registration_Click(System::Object^ sender, System::EventArgs^ e)
+	{
 
 
+	}	
+private: System::Void Cleaner_Click(System::Object^ sender, System::EventArgs^ e) 
+	{
 
 
 	}
-private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e) {
+
+private: System::Void VII_System_Click(System::Object^ sender, System::EventArgs^ e) {
 	MessageBox::Show(this, "Разработал: Веретенников Илья Игоревич\nДуховный наставник: Светалкин Максим", "О программе", MessageBoxButtons::OK, MessageBoxIcon::Exclamation);
 
 }
-private: System::Void button7_Click(System::Object^ sender, System::EventArgs^ e) { Application::Exit(); }
-private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) 
-{
-	
-
-}
+private: System::Void Exit2_Click(System::Object^ sender, System::EventArgs^ e) { Application::Exit(); }
+private: System::Void Label_Exit_Click(System::Object^ sender, System::EventArgs^ e) { Application::Exit();}
 };
 }
