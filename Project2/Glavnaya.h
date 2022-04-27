@@ -80,6 +80,9 @@ namespace Project2 {
 			// 
 			// Registration
 			// 
+			this->Registration->BackColor = System::Drawing::SystemColors::ControlLightLight;
+			this->Registration->FlatAppearance->BorderColor = System::Drawing::Color::White;
+			this->Registration->FlatAppearance->CheckedBackColor = System::Drawing::Color::White;
 			this->Registration->Font = (gcnew System::Drawing::Font(L"Times New Roman", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->Registration->Location = System::Drawing::Point(12, 53);
@@ -87,11 +90,14 @@ namespace Project2 {
 			this->Registration->Size = System::Drawing::Size(128, 44);
 			this->Registration->TabIndex = 0;
 			this->Registration->Text = L"Ввод в домен";
-			this->Registration->UseVisualStyleBackColor = true;
+			this->Registration->UseVisualStyleBackColor = false;
 			this->Registration->Click += gcnew System::EventHandler(this, &Glavnaya::Registration_Click);
 			// 
 			// Clenear
 			// 
+			this->Clenear->BackColor = System::Drawing::SystemColors::ControlLightLight;
+			this->Clenear->FlatAppearance->BorderColor = System::Drawing::Color::White;
+			this->Clenear->FlatAppearance->CheckedBackColor = System::Drawing::Color::White;
 			this->Clenear->Font = (gcnew System::Drawing::Font(L"Times New Roman", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->Clenear->Location = System::Drawing::Point(165, 54);
@@ -99,11 +105,14 @@ namespace Project2 {
 			this->Clenear->Size = System::Drawing::Size(128, 43);
 			this->Clenear->TabIndex = 1;
 			this->Clenear->Text = L"Очистка PC";
-			this->Clenear->UseVisualStyleBackColor = true;
+			this->Clenear->UseVisualStyleBackColor = false;
 			this->Clenear->Click += gcnew System::EventHandler(this, &Glavnaya::Cleaner_Click);
 			// 
 			// Fix
 			// 
+			this->Fix->BackColor = System::Drawing::SystemColors::ControlLightLight;
+			this->Fix->FlatAppearance->BorderColor = System::Drawing::Color::White;
+			this->Fix->FlatAppearance->CheckedBackColor = System::Drawing::Color::White;
 			this->Fix->Font = (gcnew System::Drawing::Font(L"Times New Roman", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->Fix->Location = System::Drawing::Point(12, 103);
@@ -111,10 +120,13 @@ namespace Project2 {
 			this->Fix->Size = System::Drawing::Size(128, 44);
 			this->Fix->TabIndex = 2;
 			this->Fix->Text = L"Установка фиксов";
-			this->Fix->UseVisualStyleBackColor = true;
+			this->Fix->UseVisualStyleBackColor = false;
 			// 
 			// Servers
 			// 
+			this->Servers->BackColor = System::Drawing::SystemColors::ControlLightLight;
+			this->Servers->FlatAppearance->BorderColor = System::Drawing::Color::White;
+			this->Servers->FlatAppearance->CheckedBackColor = System::Drawing::Color::White;
 			this->Servers->Font = (gcnew System::Drawing::Font(L"Times New Roman", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->Servers->Location = System::Drawing::Point(165, 103);
@@ -122,10 +134,13 @@ namespace Project2 {
 			this->Servers->Size = System::Drawing::Size(128, 44);
 			this->Servers->TabIndex = 3;
 			this->Servers->Text = L"Проверка всех серверов";
-			this->Servers->UseVisualStyleBackColor = true;
+			this->Servers->UseVisualStyleBackColor = false;
 			// 
 			// Plug
 			// 
+			this->Plug->BackColor = System::Drawing::SystemColors::ControlLightLight;
+			this->Plug->FlatAppearance->BorderColor = System::Drawing::Color::White;
+			this->Plug->FlatAppearance->CheckedBackColor = System::Drawing::Color::White;
 			this->Plug->Font = (gcnew System::Drawing::Font(L"Times New Roman", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->Plug->Location = System::Drawing::Point(12, 153);
@@ -133,7 +148,7 @@ namespace Project2 {
 			this->Plug->Size = System::Drawing::Size(128, 44);
 			this->Plug->TabIndex = 4;
 			this->Plug->Text = L"Подключить сетевые диски";
-			this->Plug->UseVisualStyleBackColor = true;
+			this->Plug->UseVisualStyleBackColor = false;
 			// 
 			// label1
 			// 
@@ -148,6 +163,9 @@ namespace Project2 {
 			// 
 			// VII_System
 			// 
+			this->VII_System->BackColor = System::Drawing::SystemColors::ControlLightLight;
+			this->VII_System->FlatAppearance->BorderColor = System::Drawing::Color::White;
+			this->VII_System->FlatAppearance->CheckedBackColor = System::Drawing::Color::White;
 			this->VII_System->Font = (gcnew System::Drawing::Font(L"Times New Roman", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->VII_System->Location = System::Drawing::Point(165, 153);
@@ -155,11 +173,14 @@ namespace Project2 {
 			this->VII_System->Size = System::Drawing::Size(128, 44);
 			this->VII_System->TabIndex = 6;
 			this->VII_System->Text = L"О программе";
-			this->VII_System->UseVisualStyleBackColor = true;
+			this->VII_System->UseVisualStyleBackColor = false;
 			this->VII_System->Click += gcnew System::EventHandler(this, &Glavnaya::VII_System_Click);
 			// 
 			// Exit2
 			// 
+			this->Exit2->BackColor = System::Drawing::SystemColors::ControlLightLight;
+			this->Exit2->FlatAppearance->BorderColor = System::Drawing::Color::White;
+			this->Exit2->FlatAppearance->CheckedBackColor = System::Drawing::Color::White;
 			this->Exit2->Font = (gcnew System::Drawing::Font(L"Times New Roman", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->Exit2->Location = System::Drawing::Point(97, 203);
@@ -167,7 +188,7 @@ namespace Project2 {
 			this->Exit2->Size = System::Drawing::Size(112, 40);
 			this->Exit2->TabIndex = 7;
 			this->Exit2->Text = L"Выход";
-			this->Exit2->UseVisualStyleBackColor = true;
+			this->Exit2->UseVisualStyleBackColor = false;
 			this->Exit2->Click += gcnew System::EventHandler(this, &Glavnaya::Exit2_Click);
 			// 
 			// label2
@@ -186,6 +207,7 @@ namespace Project2 {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->BackColor = System::Drawing::SystemColors::ActiveCaption;
 			this->ClientSize = System::Drawing::Size(305, 255);
 			this->Controls->Add(this->label2);
 			this->Controls->Add(this->Exit2);
@@ -202,6 +224,7 @@ namespace Project2 {
 			this->Text = L"Меню неограниченных возможностей";
 			this->ResumeLayout(false);
 			this->PerformLayout();
+
 		}
 #pragma endregion
 //Кнопки с функциями действия
