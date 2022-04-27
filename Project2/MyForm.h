@@ -199,5 +199,9 @@ namespace Project2 {
 
 	private: System::Void label4_Click(System::Object^ sender, System::EventArgs^ e) { Application::Exit(); }
 
+
+
+
+
 };
 }
