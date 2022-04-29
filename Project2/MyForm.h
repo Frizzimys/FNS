@@ -173,7 +173,7 @@ namespace Project2 {
 #pragma endregion
 
 		bool Login_Password(String^ Login,String^ Password) {
-			if (Login == "fku" && Password == "12345")
+			if (Login == "1" && Password == "1")
 			{
 				return true;
 			}

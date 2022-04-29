@@ -1,14 +1,14 @@
 #pragma once
 
 namespace Project2 {
-
 	using namespace System;
 	using namespace System::ComponentModel;
 	using namespace System::Collections;
 	using namespace System::Windows::Forms;
 	using namespace System::Data;
 	using namespace System::Drawing;
-
+	using namespace System::Text;
+	using namespace System::Diagnostics;	
 	/// <summary>
 	/// Сводка для Glavnaya
 	/// </summary>
@@ -228,6 +228,7 @@ namespace Project2 {
 		}
 #pragma endregion
 //Кнопки с функциями действия
+
 private: System::Void Registration_Click(System::Object^ sender, System::EventArgs^ e)
 	{
 
@@ -235,8 +236,7 @@ private: System::Void Registration_Click(System::Object^ sender, System::EventAr
 	}	
 private: System::Void Cleaner_Click(System::Object^ sender, System::EventArgs^ e) 
 	{
-
-
+	Process::Start("PowerShell.exe", "C:\\Users\\veret\\Documents\\GitHub\\FNS\\ClearProfile.ps1");
 	}
 
 private: System::Void VII_System_Click(System::Object^ sender, System::EventArgs^ e) {

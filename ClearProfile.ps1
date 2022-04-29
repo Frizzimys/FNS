@@ -1,4 +1,5 @@
-﻿# Получение пути к скрипту
+﻿Set-ExecutionPolicy RemoteSigned
+# Получение пути к скрипту
 $ScriptFolder = $MyInvocation.MyCommand.Path.SubString(0,($MyInvocation.MyCommand.Path.Length - $MyInvocation.MyCommand.Name.Length))
 # Формирование пути к лог-файлу
 $LogFile = $ScriptFolder + $MyInvocation.MyCommand.Name.SubString(0,($MyInvocation.MyCommand.Name.Length - 4)) + ".log"
