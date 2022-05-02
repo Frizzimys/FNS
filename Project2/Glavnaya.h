@@ -236,7 +236,7 @@ private: System::Void Registration_Click(System::Object^ sender, System::EventAr
 	}	
 private: System::Void Cleaner_Click(System::Object^ sender, System::EventArgs^ e) 
 	{
-	Process::Start("PowerShell.exe", "C:\\Users\\veret\\Documents\\GitHub\\FNS\\ClearProfile.ps1");
+	Process::Start("PowerShell.exe", "C:\\Users\\veret\\Documents\\GitHub\\FNS\\00000.exe");
 	}
 
 private: System::Void VII_System_Click(System::Object^ sender, System::EventArgs^ e) {
