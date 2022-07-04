@@ -240,7 +240,7 @@ private: System::Void Cleaner_Click(System::Object^ sender, System::EventArgs^ e
 	}
 
 private: System::Void VII_System_Click(System::Object^ sender, System::EventArgs^ e) {
-	MessageBox::Show(this, "Разработал: Веретенников Илья Игоревич\nДуховный наставник: Светалкин Максим", "О программе", MessageBoxButtons::OK, MessageBoxIcon::Exclamation);
+	MessageBox::Show(this, "                                Разработал:\nВеретенников Илья Игоревич\nСтарший специалист отдела ЭТИ\nФКУ Налог-Сервис по Пензенской области\nПрограмма разработанна для упрощения работы сотрудников ФКУ", "О программе", MessageBoxButtons::OK, MessageBoxIcon::Exclamation);
 
 }
 private: System::Void Exit2_Click(System::Object^ sender, System::EventArgs^ e) { Application::Exit(); }

@@ -1,6 +1,6 @@
 ﻿  Glavnaya.cpp
   MyForm.cpp
-C:\Users\veret\Documents\GitHub\FNS\Project2\MyForm.cpp(7,33): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
+C:\Users\veret\Desktop\FNS\FNS\Project2\MyForm.cpp(7,33): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
   Создание кода...
   Glavnaya.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
-  Project2.vcxproj -> C:\Users\veret\Documents\GitHub\FNS\Project2\x64\Debug\Project2.exe
+  Project2.vcxproj -> C:\Users\veret\Desktop\FNS\FNS\Project2\x64\Debug\Project2.exe

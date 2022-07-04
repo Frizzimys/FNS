@@ -9,3 +9,9 @@ C:\Users\veret\Documents\GitHub\FNS\Project2\x64\Debug\Project2.MyForm.resources
 C:\Users\veret\Documents\GitHub\FNS\Project2\x64\Debug\Project2.vcxproj.GenerateResource.cache
 C:\Users\veret\Documents\GitHub\FNS\Project2\x64\Debug\Project2.exe
 C:\Users\veret\Documents\GitHub\FNS\Project2\x64\Debug\Project2.Glavnaya.resources
+C:\Users\veret\Desktop\FNS\FNS\Project2\x64\Debug\Project2.vcxproj.AssemblyReference.cache
+C:\Users\veret\Desktop\FNS\FNS\Project2\x64\Debug\Project2.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\veret\Desktop\FNS\FNS\Project2\x64\Debug\Project2.Glavnaya.resources
+C:\Users\veret\Desktop\FNS\FNS\Project2\x64\Debug\Project2.MyForm.resources
+C:\Users\veret\Desktop\FNS\FNS\Project2\x64\Debug\Project2.vcxproj.GenerateResource.cache
+C:\Users\veret\Desktop\FNS\FNS\Project2\x64\Debug\Project2.exe
