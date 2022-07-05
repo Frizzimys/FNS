@@ -1,4 +1,5 @@
 #pragma once
+#include "RegDomain.h"
 
 namespace Project2 {
 	using namespace System;
@@ -42,14 +43,11 @@ namespace Project2 {
 	protected:
 
 	protected:
-
-
-
-
 	private: System::Windows::Forms::Label^ label1;
 	private: System::Windows::Forms::Button^ VII_System;
 	private: System::Windows::Forms::Button^ Exit2;
 	private: System::Windows::Forms::Label^ label2;
+	private: System::Windows::Forms::OpenFileDialog^ openFileDialog1;
 
 
 
@@ -76,6 +74,7 @@ namespace Project2 {
 			this->VII_System = (gcnew System::Windows::Forms::Button());
 			this->Exit2 = (gcnew System::Windows::Forms::Button());
 			this->label2 = (gcnew System::Windows::Forms::Label());
+			this->openFileDialog1 = (gcnew System::Windows::Forms::OpenFileDialog());
 			this->SuspendLayout();
 			// 
 			// Registration
@@ -203,6 +202,10 @@ namespace Project2 {
 			this->label2->Text = L"X";
 			this->label2->Click += gcnew System::EventHandler(this, &Glavnaya::Label_Exit_Click);
 			// 
+			// openFileDialog1
+			// 
+			this->openFileDialog1->FileName = L"openFileDialog1";
+			// 
 			// Glavnaya
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
@@ -229,18 +232,20 @@ namespace Project2 {
 #pragma endregion
 //Кнопки с функциями действия
 
-private: System::Void Registration_Click(System::Object^ sender, System::EventArgs^ e)
+private: System::Void Registration_Click(System::Object^ sender, System::EventArgs^ e) //Кнопка для перехода в меню для ввода в домен
 	{
-
+	RegDomain^ rg = gcnew RegDomain();//Создаём экземпляр формы
+	rg->Show();
+	Glavnaya::Hide();
+	
 
 	}	
-private: System::Void Cleaner_Click(System::Object^ sender, System::EventArgs^ e) 
+private: System::Void Cleaner_Click(System::Object^ sender, System::EventArgs^ e) //Кнопка для очистки всех временных файлов и профилей пользователя
 	{
 	Process::Start("PowerShell.exe", "C:\\Users\\veret\\Documents\\GitHub\\FNS\\00000.exe");
 	}
 
-private: System::Void VII_System_Click(System::Object^ sender, System::EventArgs^ e) {
-	MessageBox::Show(this, "                                Разработал:\nВеретенников Илья Игоревич\nСтарший специалист отдела ЭТИ\nФКУ Налог-Сервис по Пензенской области\nПрограмма разработанна для упрощения работы сотрудников ФКУ", "О программе", MessageBoxButtons::OK, MessageBoxIcon::Exclamation);
+private: System::Void VII_System_Click(System::Object^ sender, System::EventArgs^ e) {MessageBox::Show(this, "Разработал:\nВеретенников Илья Игоревич\nСтарший специалист отдела ЭТИ\nФКУ Налог-Сервис по Пензенской области\nПрограмма разработанна для упрощения работы сотрудников ФКУ", "О программе", MessageBoxButtons::OK, MessageBoxIcon::Exclamation);
 
 }
 private: System::Void Exit2_Click(System::Object^ sender, System::EventArgs^ e) { Application::Exit(); }

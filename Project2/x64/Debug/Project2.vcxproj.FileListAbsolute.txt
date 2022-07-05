@@ -15,3 +15,6 @@ C:\Users\veret\Desktop\FNS\FNS\Project2\x64\Debug\Project2.Glavnaya.resources
 C:\Users\veret\Desktop\FNS\FNS\Project2\x64\Debug\Project2.MyForm.resources
 C:\Users\veret\Desktop\FNS\FNS\Project2\x64\Debug\Project2.vcxproj.GenerateResource.cache
 C:\Users\veret\Desktop\FNS\FNS\Project2\x64\Debug\Project2.exe
+C:\Users\veret\Desktop\FNS\FNS\Project2\x64\Debug\Project2.RegDomain.resources
+C:\Users\veret\Desktop\FNS\FNS\Project2\x64\Debug\Project2.RegDomainSet.resources
+C:\Users\veret\Desktop\FNS\FNS\Project2\x64\Debug\Project2.Сетевые диски.resources

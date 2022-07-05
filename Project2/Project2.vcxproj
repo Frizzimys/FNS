@@ -124,12 +124,24 @@
   <ItemGroup>
     <ClCompile Include="Glavnaya.cpp" />
     <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="RegDomain.cpp" />
+    <ClCompile Include="RegDomainSet.cpp" />
+    <ClCompile Include="Сетевые диски.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Glavnaya.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="MyForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RegDomain.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RegDomainSet.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Сетевые диски.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
@@ -139,6 +151,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MyForm.resx">
       <DependentUpon>MyForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegDomain.resx">
+      <DependentUpon>RegDomain.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegDomainSet.resx">
+      <DependentUpon>RegDomainSet.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Сетевые диски.resx">
+      <DependentUpon>Сетевые диски.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
