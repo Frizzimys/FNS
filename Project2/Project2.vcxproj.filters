@@ -15,19 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MyForm.cpp">
-      <Filter>Файлы ресурсов</Filter>
-    </ClCompile>
-    <ClCompile Include="Glavnaya.cpp">
-      <Filter>Файлы заголовков</Filter>
-    </ClCompile>
     <ClCompile Include="RegDomain.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="RegDomainSet.cpp">
+    <ClCompile Include="DomainSet.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Сетевые диски.cpp">
+    <ClCompile Include="Glavnaya.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
@@ -42,9 +39,6 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="RegDomainSet.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="Сетевые диски.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,22 +1,6 @@
-﻿  Glavnaya.cpp
-C:\Users\veret\Desktop\FNS\FNS\Project2\RegDomain.h(96,3): error C2065: Glavnaya: необъявленный идентификатор
-C:\Users\veret\Desktop\FNS\FNS\Project2\RegDomain.h(96,13): error C2065: kkkk: необъявленный идентификатор
-C:\Users\veret\Desktop\FNS\FNS\Project2\RegDomain.h(96,26): error C2061: синтаксическая ошибка: идентификатор "Glavnaya"
-C:\Users\veret\Desktop\FNS\FNS\Project2\RegDomain.h(97,3): error C2065: kkkk: необъявленный идентификатор
+﻿  DomainSet.cpp
+  Glavnaya.cpp
   MyForm.cpp
-C:\Users\veret\Desktop\FNS\FNS\Project2\RegDomain.h(96,3): error C2065: Glavnaya: необъявленный идентификатор
-C:\Users\veret\Desktop\FNS\FNS\Project2\RegDomain.h(96,13): error C2065: kkkk: необъявленный идентификатор
-C:\Users\veret\Desktop\FNS\FNS\Project2\RegDomain.h(96,26): error C2061: синтаксическая ошибка: идентификатор "Glavnaya"
-C:\Users\veret\Desktop\FNS\FNS\Project2\RegDomain.h(97,3): error C2065: kkkk: необъявленный идентификатор
-C:\Users\veret\Desktop\FNS\FNS\Project2\MyForm.cpp(7,33): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
+C:\Users\veret\Desktop\FNS\FNS\Project2\MyForm.h(3): fatal error C1075: "{": не найдена несоответствующая лексема
   RegDomain.cpp
-C:\Users\veret\Desktop\FNS\FNS\Project2\Glavnaya.h(237,2): error C2065: RegDomain: необъявленный идентификатор
-C:\Users\veret\Desktop\FNS\FNS\Project2\Glavnaya.h(237,13): error C2065: rg: необъявленный идентификатор
-C:\Users\veret\Desktop\FNS\FNS\Project2\Glavnaya.h(237,24): error C2061: синтаксическая ошибка: идентификатор "RegDomain"
-C:\Users\veret\Desktop\FNS\FNS\Project2\Glavnaya.h(238,2): error C2065: rg: необъявленный идентификатор
-  RegDomainSet.cpp
-C:\Users\veret\Desktop\FNS\FNS\Project2\Glavnaya.h(237,2): error C2065: RegDomain: необъявленный идентификатор
-C:\Users\veret\Desktop\FNS\FNS\Project2\Glavnaya.h(237,13): error C2065: rg: необъявленный идентификатор
-C:\Users\veret\Desktop\FNS\FNS\Project2\Glavnaya.h(237,24): error C2061: синтаксическая ошибка: идентификатор "RegDomain"
-C:\Users\veret\Desktop\FNS\FNS\Project2\Glavnaya.h(238,2): error C2065: rg: необъявленный идентификатор
   Создание кода...

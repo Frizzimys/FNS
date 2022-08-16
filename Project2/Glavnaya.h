@@ -1,5 +1,6 @@
 #pragma once
 #include "RegDomain.h"
+#include "RegDomainSet.h"
 
 namespace Project2 {
 	using namespace System;
@@ -233,13 +234,13 @@ namespace Project2 {
 //Кнопки с функциями действия
 
 private: System::Void Registration_Click(System::Object^ sender, System::EventArgs^ e) //Кнопка для перехода в меню для ввода в домен
-	{
-	RegDomain^ rg = gcnew RegDomain();//Создаём экземпляр формы
-	rg->Show();
-	Glavnaya::Hide();
+{
+	this->Hide();
+	RegDomain^ Registration = gcnew RegDomain();//Создаём экземпляр формы
+	Registration->Owner = this;
+	Registration->Show();
 	
-
-	}	
+}
 private: System::Void Cleaner_Click(System::Object^ sender, System::EventArgs^ e) //Кнопка для очистки всех временных файлов и профилей пользователя
 	{
 	Process::Start("PowerShell.exe", "C:\\Users\\veret\\Documents\\GitHub\\FNS\\00000.exe");
